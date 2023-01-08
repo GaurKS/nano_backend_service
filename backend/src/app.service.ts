@@ -39,7 +39,7 @@ export class AppService {
       const res = {
         statusCode: 201,
         message: 'Success',
-        data: 'localhost:3000/' + hash
+        data: 'localhost:8000/' + hash
       }
       return res; 
 
